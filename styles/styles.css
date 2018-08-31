@@ -4,10 +4,16 @@ html {
 }
 h1 {
     font-size: 8vh;
+    /* To support color gradient across browsers */
+    background: rgba(255, 99, 71, 0.9); /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0
+    background: -webkit-linear-gradient(right, #EE82EE, #FF6347); */
+    /* For Opera 11.1 to 12.0
+    background: -o-linear-gradient(right, #EE82EE, #FF6347);  */
+    /* For Firefox 3.6 to 15
+    background: -moz-linear-gradient(right, #EE82EE, #FF6347); */
+    background: linear-gradient(to bottom, #EE82EE, #FF6347); /* Standard */
     text-align: center;
-    background: -webkit-linear-gradient(#7966FF, #00CCCC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 h2 {
     text-align: center;
