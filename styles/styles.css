@@ -38,7 +38,7 @@ h2 {
     justify-content: space-evenly;
 }
 .projects img {
-    width: 400px;
+    height: 400px;
     padding: 10px;
     background: -webkit-linear-gradient(#7966FF, #00CCCC);
 }
@@ -55,5 +55,5 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    font-size: 1.2vh;
+    font-size: 1.5vh;
 }
