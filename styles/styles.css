@@ -1,0 +1,64 @@
+html {
+    overflow-x: hidden;
+    /* To support color gradient across browsers */
+    background: rgba(255, 99, 71, 0.9); /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0
+    background: -webkit-linear-gradient(right, #EE82EE, #FF6347); */
+    /* For Opera 11.1 to 12.0
+    background: -o-linear-gradient(right, #EE82EE, #FF6347);  */
+    /* For Firefox 3.6 to 15
+    background: -moz-linear-gradient(right, #EE82EE, #FF6347); */
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); /* Standard */
+}
+h1 {
+    font-size: 8vh;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.logoNavBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.logolinks {
+    height: 5vh;
+    opacity: .5;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+}
+.logolinks:hover {
+    height: 100px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    perspective: 500px;
+    transform: perspective(500px) rotateY(35deg) rotateX(25deg);
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projects img {
+    height: 400px;
+    padding: 5px;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(#7966FF, #00CCCC);
+}
+.desc {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer {
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.5vh;
+}
