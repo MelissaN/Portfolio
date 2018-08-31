@@ -8,7 +8,7 @@ html {
     background: -o-linear-gradient(right, #EE82EE, #FF6347);  */
     /* For Firefox 3.6 to 15
     background: -moz-linear-gradient(right, #EE82EE, #FF6347); */
-    background: linear-gradient(to top, #03001e, #7303c0, #ec38bc, #fdeff9); /* Standard */
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); /* Standard */
 }
 h1 {
     font-size: 8vh;
@@ -44,11 +44,12 @@ h2 {
 }
 .projects img {
     height: 400px;
-    padding: 10px;
+    padding: 5px;
+    border-radius: 15px;
     background: -webkit-linear-gradient(#7966FF, #00CCCC);
 }
 .desc {
-    padding:10px;
+    padding: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
