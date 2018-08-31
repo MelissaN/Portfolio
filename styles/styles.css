@@ -1,9 +1,5 @@
 html {
-    background-color: white;
     overflow-x: hidden;
-}
-h1 {
-    font-size: 8vh;
     /* To support color gradient across browsers */
     background: rgba(255, 99, 71, 0.9); /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0
@@ -13,6 +9,9 @@ h1 {
     /* For Firefox 3.6 to 15
     background: -moz-linear-gradient(right, #EE82EE, #FF6347); */
     background: linear-gradient(to bottom, #EE82EE, #FF6347); /* Standard */
+}
+h1 {
+    font-size: 8vh;
     text-align: center;
 }
 h2 {
@@ -59,7 +58,6 @@ footer {
     left: 0px;
     right: 0px;
     text-align: center;
-    background-color: black;
     color: white;
     font-size: 1.5vh;
 }
