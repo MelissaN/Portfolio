@@ -1,11 +1,16 @@
 html {
     background-color: white;
 }
+.top {
+    backgroung-image: url("images/backgd.jpg");
+    opacity: 0.5;
+}
 h1 {
-    font-size: 8vw;
+    font-size: 15vw;
     text-align: center;
-    background: yellow;
-    backgroung-image: url("/images/backgd.jpg");
+    background: -webkit-linear-gradient(#7966FF, #00CCCC);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .logoNavBar {
     display: flex;
@@ -13,7 +18,7 @@ h1 {
     justify-content: space-evenly;
 }
 .logolinks {
-    height: 10vh;
+    height: 5vh;
     opacity: .5;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
@@ -27,19 +32,13 @@ h1 {
     perspective: 500px;
     transform: perspective(500px) rotateY(35deg) rotateX(25deg);
 }
-h2 {
-    font-size: 6vw;
-    background: -webkit-linear-gradient(#7966FF, #00CCCC);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 img {
-    height: 15vh;
+    height: 20vh;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
