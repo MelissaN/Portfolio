@@ -1,0 +1,56 @@
+html {
+    background-color: white;
+}
+h1 {
+    font-size: 8vw;
+    text-align: center;
+    background: yellow;
+    backgroung-image: url("/images/backgd.jpg");
+}
+.logoNavBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.logolinks {
+    height: 10vh;
+    opacity: .5;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+}
+.logolinks:hover {
+    height: 100px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    perspective: 500px;
+    transform: perspective(500px) rotateY(35deg) rotateX(25deg);
+}
+h2 {
+    font-size: 6vw;
+    background: -webkit-linear-gradient(#7966FF, #00CCCC);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img {
+    height: 15vh;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
