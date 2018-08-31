@@ -1,16 +1,16 @@
 html {
     background-color: white;
-}
-.top {
-    backgroung-image: url("images/backgd.jpg");
-    opacity: 0.5;
+    overflow-x: hidden;
 }
 h1 {
-    font-size: 15vw;
+    font-size: 12vw;
     text-align: center;
     background: -webkit-linear-gradient(#7966FF, #00CCCC);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    text-align: center;
 }
 .logoNavBar {
     display: flex;
@@ -37,19 +37,23 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-img {
-    height: 20vh;
-    border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+.projects img {
+    width: 400px;
+    padding: 10px;
+    background: -webkit-linear-gradient(#7966FF, #00CCCC);
+}
+.desc {
+    padding:10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 footer {
-    position: absolute;
+    position: static;
     bottom: 0px;
     left: 0px;
     right: 0px;
     text-align: center;
     background-color: black;
     color: white;
+    font-size: 1.2vh;
 }
