@@ -8,7 +8,7 @@ html {
     background: -o-linear-gradient(right, #EE82EE, #FF6347);  */
     /* For Firefox 3.6 to 15
     background: -moz-linear-gradient(right, #EE82EE, #FF6347); */
-    background: linear-gradient(to bottom, #EE82EE, #FF6347); /* Standard */
+    background: linear-gradient(to top, #03001e, #7303c0, #ec38bc, #fdeff9); /* Standard */
 }
 h1 {
     font-size: 8vh;
