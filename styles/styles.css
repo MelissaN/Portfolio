@@ -1,21 +1,20 @@
+@charset "UTF-8";
+
 html {
-    overflow-x: hidden;
-    /* To support color gradient across browsers */
-    background: rgba(255, 99, 71, 0.9); /* For browsers that do not support gradients */
-    /* For Safari 5.1 to 6.0
-    background: -webkit-linear-gradient(right, #EE82EE, #FF6347); */
-    /* For Opera 11.1 to 12.0
-    background: -o-linear-gradient(right, #EE82EE, #FF6347);  */
-    /* For Firefox 3.6 to 15
-    background: -moz-linear-gradient(right, #EE82EE, #FF6347); */
-    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); /* Standard */
+    background-color: #fff;
 }
-h1 {
-    font-size: 8vh;
-    text-align: center;
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vh;
 }
-h2 {
+.categories {
+    font-size: 3vh;
     text-align: center;
+    color: white;
+    background: -webkit-linear-gradient(#7966FF, #00CCCC);
+    opacity: 0.5;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 .logoNavBar {
     display: flex;
@@ -37,28 +36,21 @@ h2 {
     perspective: 500px;
     transform: perspective(500px) rotateY(35deg) rotateX(25deg);
 }
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.projects img {
-    height: 400px;
-    padding: 5px;
-    border-radius: 15px;
-    background: -webkit-linear-gradient(#7966FF, #00CCCC);
-}
-.desc {
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+.row img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px black;
 }
 footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vh;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
     position: static;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    text-align: center;
-    color: white;
-    font-size: 1.5vh;
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
 }
